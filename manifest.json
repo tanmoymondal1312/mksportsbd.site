@@ -1,0 +1,17 @@
+{
+  "name": "MK SPORTS BD",
+  "short_name": "MK SPORTS",
+  "start_url": "/app/",
+  "display": "standalone",
+  "theme_color": "#0F172A",
+  "background_color": "#0F172A",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

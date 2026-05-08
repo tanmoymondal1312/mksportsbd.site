@@ -1,0 +1,26 @@
+# robots.txt for MK Sports BD (mksportsbd.site)
+# Created: 2026-04-29
+
+User-agent: *
+Allow: /
+
+# Disallow private/admin areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /config/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /temp/
+Disallow: /uploads/private/
+
+# Allow important resources
+Allow: /icons/
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Sitemap location
+Sitemap: https://mksportsbd.site/sitemap.xml
+
+# Crawl delay (be polite to server)
+Crawl-delay: 1
